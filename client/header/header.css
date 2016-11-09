@@ -1,0 +1,45 @@
+.header{
+	width:100%;
+	background:#121212;
+	height:60px;
+	line-height:60px;
+	color:#fff;
+	position: relative;
+}
+
+.header a{
+	color: #fff;
+}
+
+.header-right{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+.header-right .link{
+	display: block;
+	float: right;
+	padding: 0px 10px;
+}
+.header-right .submit{
+	display: block;
+	float: right;
+	padding: 0px 40px;
+	background: #bd3523;
+
+}
+.header-right .status{
+	display: block;
+	float: right;
+	padding: 0px 10px;
+	font-size: .8rem;
+	color: #999;
+	padding: 0px 20px;
+}
+.header .logo{
+	font-size: 2rem;
+	padding-left: 10px;
+	display: block;
+	font-weight: 800;
+}
